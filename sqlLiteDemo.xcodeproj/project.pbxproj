@@ -26,6 +26,7 @@
 		919705A32A30C184000EBF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919705A62A30C184000EBF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		919705A82A30C184000EBF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919705AF2A30C29F000EBF3A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 			children = (
 				919705962A30C181000EBF3A /* sqlLiteDemo */,
 				919705952A30C181000EBF3A /* Products */,
+				919705AE2A30C29E000EBF3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +70,14 @@
 				919705A02A30C181000EBF3A /* sqlLiteDemo.xcdatamodeld */,
 			);
 			path = sqlLiteDemo;
+			sourceTree = "<group>";
+		};
+		919705AE2A30C29E000EBF3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919705AF2A30C29F000EBF3A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
